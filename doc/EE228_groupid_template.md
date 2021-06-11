@@ -6,9 +6,29 @@ EE228 课程大作业，利用3D骨架控制3D卡通人物。
 
 # Maya 环境配置
 
-这里请简单描述你配置Maya环境的过程。
+Tutorial: [maya配置教程-知乎](https://zhuanlan.zhihu.com/p/367649237)<br>
 
-
+* 申请Autodesk账户和教育版权限，下载maya2020，按引导安装，运行maya2020.
+* 添加环境变量：将maya2020\bin的路径添加到环境变量-系统变量-Path中。打开cmd，输入mayapy检查是否添加成功。
+* 打开cmd，输入安装pip
+>curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
+>mayapy get-pip.py
+* 安装numpy：
+>mayapy -m pip install -i https://pypi.anaconda.org/carlkl/simple numpy
+* 检查环境：
+>import maya
+>import maya.standalone
+>maya.standalone.initialize(name='python')
+>import maya.OpenMaya as om
+>import maya.cmds as cmds
+>import pymel.core as pm
+>import maya.mel as mel
+>import numpy as np
+>import os
+>import glob
+* 在脚本目录下运行示例代码
+>mayapy fbx_parser.py xxxx.fbx
+如果顺利结束运行，并生成所需文件，则配置完成。
 
 # 匹配流程
 
