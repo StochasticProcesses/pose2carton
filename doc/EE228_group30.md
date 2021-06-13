@@ -74,11 +74,11 @@ input 中的 info_seq_5.pkl 保存为 human_poses 序列，逐帧迁移时，依
 
 # 项目结果
 
-有蒙皮：
+无蒙皮：
 
 ![image](../img/pic1.png)
 
-无蒙皮：
+有蒙皮：
 
 ![image](../img/pic2.png)
 
