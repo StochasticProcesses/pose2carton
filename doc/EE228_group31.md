@@ -87,4 +87,4 @@ input 中的 info_seq_5.pkl 保存为 human_poses 序列，逐帧迁移时，依
 
 所涉及代码及数据的最终解释权归倪冰冰老师课题组所有
 
-Group 30
+Group 31
